@@ -36,7 +36,7 @@ class App extends Component {
     this.setState({ filter: e.target.value });
   };
 
-  //Отриманні відфільтрованих контактів
+  //Отриманні відфільтровані контакти
   getVisibleContacts = () => {
     const { filter, contacts } = this.state;
     const normalizedFilter = filter.toLowerCase();
